@@ -14,6 +14,7 @@ class Board:
         self.__pieces = []
         self.time_winner = None  
         self.gui_initialized = False
+        self.time_limit = -1
 
     @classmethod
     def create_starting_board(cls):
@@ -247,3 +248,6 @@ class Board:
 
     def __remove_piece(self, piece):
         self.__pieces.remove(piece)
+    
+    def getTheTimeLim(self):
+        return self.time_limit

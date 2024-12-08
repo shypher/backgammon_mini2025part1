@@ -1,3 +1,5 @@
+מגיש:
+322687153
 # backgammon
 Python modules to play backgammon (human or computer)
 

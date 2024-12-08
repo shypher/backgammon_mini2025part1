@@ -25,7 +25,6 @@ class MoveFurthestBackStrategy(Strategy):
         return "Medium"
 
     def move(self, board, colour, dice_roll, make_move, opponents_activity):
-        #wait 2 seconds before moving
         
         could_not_move_first_roll = False
 

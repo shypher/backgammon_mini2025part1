@@ -40,6 +40,7 @@ class Game:
             Colour.BLACK: black_strategy
         }
         self.time_limit = time_limit
+        self.board.time_limit = time_limit
 
     def run_game(self, verbose=True):
         if verbose:
